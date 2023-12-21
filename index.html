@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin I. Clément T.S.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style-nav.css">
+    <link rel="stylesheet" href="assets/css/style-index.css">
+    <link rel="stylesheet" href="assets/css/style-footer.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/imgs/logo.png">
+    <title>Accueil | Raspberry Pi</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="index.html" class="logo_link">
+                <img src="assets/imgs/logo.png" alt="img rasps" class="logo-rasp">
+                <h2>SNT</h2>
+            </a>
+                <div id="menu">
+                <div>
+                    <span class="span_1"></span>
+                    <span class="span_2"></span>
+                    <span class="span_3"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="display: flex;justify-content: space-between;width: 100%;"></div>
+
+        <a id="a_Nav1">
+            <li onclick="window.location.href='index.html'">Accueil</li>
+        </a>
+        <a id="a_Nav3">
+            <li onclick="window.location.href='modeles.html'">Mod&egrave;les</li>
+        </a>
+        <a id="a_Nav2">
+            <li onclick="window.location.href='projets.html'">Projets</li>
+        </a>
+    </nav>
+
+    <div class="hero-container">
+        <div class="hero-left">
+            <img src="assets/imgs/raspberryPiCarte.webp" class="img_rasp_hero" alt="">
+        </div>
+        <div class="hero-right">
+            <div class="Div_text">
+                <h1>
+                    Raspberry Pi
+                </h1>
+                <p class="subtitle-hero">
+                    Le Raspberry Pi est un petit ordinateur monocarte, abordable et polyvalent, conçu pour encourager l'apprentissage de la programmation informatique. Il est de la taille d'une carte de cr&eacute;dit et &eacute;quip&eacute; de ports d'entr&eacute;e/sortie, d'un processeur, de m&eacute;moire vive, et fonctionne g&eacute;n&eacute;ralement avec un syst&egrave;me d'exploitation bas&eacute; sur Linux. Le Raspberry Pi est largement utilis&eacute; dans une vari&eacute;t&eacute; de projets, allant de l'&eacute;ducation à la domotique et aux serveurs personnels.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="colonnes">
+        <div class="colonne_1">
+            <button class="btn_card" onclick="window.location.href='modeles.html'">Mod&egrave;les</button>
+        </div>
+        <div class="colonne_2">
+            <div>
+                <button class="btn_card" onclick="window.location.href='projets.html'">Informations</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="videoContainer" style="display: flex; justify-content: center;">
+        <iframe class="video" src="https://www.youtube.com/embed/sajBySPeYH0?si=qTTdK7hLoVLxG2DW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <h2 class="h2_footer">
+            Raspberry Pi | Projet SNT <script>document.write(new Date().getFullYear())</script>
+        </h2>
+        <table class="table_footer">
+            <tr class="tr_footer">
+                <td class="td_footer">
+                    Benjamin I.
+                    <br/>
+                    <button onclick="document.location.href='https://github.com/gateaublabla'" class="btn_ti_footer">
+                        <img src="assets/imgs/github.png" alt="" class="img_ti_footer">
+                        <p class="txt_btn_footer">GitHub</p>
+                    </button>
+                </td>
+                <td class="td_footer">
+                    Cl&eacute;ment T.S.
+                    <br/>
+                    <button onclick="document.location.href='https://github.com/TheClems7199'" class="btn_ti_footer">
+                        <img src="assets/imgs/github.png" alt="" class="img_ti_footer">
+                        <p class="txt_btn_footer">GitHub</p>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+<script src="assets/js/nav.js"></script>
+
+</html>
