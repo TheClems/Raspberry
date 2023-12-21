@@ -1,0 +1,9 @@
+1/Serveur Web 
+2/Station de jeu rétro
+3/Station météo
+4/Projet domotique
+5/Robotique
+6/Media Center
+7/Caméra de surveillance
+8/Serveur pour gestion d'imprimante 3D
+
