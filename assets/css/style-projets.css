@@ -1,0 +1,83 @@
+.h2-presentation{
+    margin: 3vh;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+
+.colonnes{
+    display: flex;
+    justify-content: space-around;
+    margin: 5vh 0 5vh 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+
+}
+
+
+.img{
+    width: 30vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.card{
+
+    margin: 5vw;
+}
+
+.img2{
+
+    width: 80%;
+    border-radius: 10%;
+    border: 5px solid rgb(196, 29, 73);
+    transition: 0.5s width;
+}
+.img2:hover{
+    width: 82%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+    .colonnes{
+        display: block;
+        margin: 5vh 0 5vh 0;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        margin: auto;
+        width: 100%;
+    
+    }
+
+    .card{
+        width: 90%;
+        margin: 5vw;
+    }
+    .img{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    
+    }
+
+    .img2{
+
+        width: 70%;
+        margin: 0 auto;
+        border-width: 3px;
+    }
+
+    h1{
+        font-size: 4vw;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+
+
+}

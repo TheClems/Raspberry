@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.h2-presentation{
+    margin: 3vh;
+}
+
+h3 {
+    font-size: 1.5vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+.container_card {
+    text-align: center;
+}
+
+.card {
+    background-color: rgb(196, 29, 73);
+    box-shadow: 3px;
+    width: 70vw; 
+    height: 15vw;
+    display: flex;  
+    align-items: center;
+    border-radius: 3vw;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+
+.card_img {
+    background-color: rgb(196, 29, 73);
+    height: 13vw;
+    border-radius: 3vw;
+    margin-left: 2vw;
+}
+
+.card_txt {
+    background-color: rgb(196, 29, 73);
+    display: block;
+    text-align: left;
+    padding: 2vw;
+    border-radius: 3vw;
+    color: #fff;
+}

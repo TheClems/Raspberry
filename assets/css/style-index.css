@@ -1,0 +1,130 @@
+.hero-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-right{
+    width: 50%;
+    padding: 2.5vw;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.Div_text {
+    display: block;
+}
+
+
+.img_rasp_hero{
+    width: 50vw;
+    max-width: 600px;
+    
+}
+
+.colonne_1, .colonne_2{
+    width: 35vw;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+}
+
+.colonne_1{
+    background-image: url("../imgs/index-card1.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+.colonne_2{
+    background-image: url("../imgs/index-card2.webp");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+.colonnes{
+    display: flex;
+    justify-content: space-around;
+    padding: 10vw 0 10vw 0;
+}
+
+.btn_card{
+    padding: 1.5vw;
+    background-color: rgb(196, 29, 73);
+    color: white;
+    border-radius: 1vw;
+    border: 5px solid rgb(196, 29, 73);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    transition: 0.75s all;
+    font-size: 1.5vw;
+    box-shadow: 2px 2px 2px 2px #333;
+    margin: 10vw 0 10vw 0;
+}
+
+.btn_card:hover{
+    background-color: transparent;
+    box-shadow: none ;
+}
+
+.video{
+    aspect-ratio: 16/9;
+    width: 60%;
+    border-radius: 1vw;
+    margin-bottom: 3vw;
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+
+    .hero-container {
+        display: block;
+        height: 130%;
+    }
+
+    .hero-left{
+        margin: auto;
+        padding: 6.5vh;
+    }
+    
+    .hero-right{
+        margin: auto;
+        width: 90%;
+    }
+
+    .img_rasp_hero{
+        width: 60vw;
+        max-width: 500px;
+    }
+
+    .colonnes{
+        display: block;
+    }
+
+    .colonne_1, .colonne_2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+        margin-top: 5vh;
+        width: 90%;
+    }
+
+    .btn_card{
+        font-size: 4vw;
+        margin: 20vw 0 20vw 0;
+    }
+
+    .video{
+        width: 90%;
+    }
+}
