@@ -5,45 +5,46 @@
 
 h3{
     font-size: 2vw;
+    margin: 0 auto;
 }
-
 
 .colonnes{
     display: flex;
     justify-content: space-around;
     margin: 5vh 0 5vh 0;
     font-family: Poppins, Arial, Helvetica, sans-serif;
-
 }
 
+.colonnes>div {
+    text-align: center;
+}
 
-.img{
+.imgContainer{
     width: 30vw;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-
 }
 
 .card{
-
+    text-align: center;
     margin: 5vw;
 }
 
-.img2{
-
+.imgProjet{
     width: 80%;
     border-radius: 10%;
     border: 5px solid rgb(196, 29, 73);
-    transition: 0.5s width;
-}
-.img2:hover{
-    width: 82%;
+    transition: transform .5s;
 }
 
+.imgProjet:hover{
+    transform: scale(1.03);
+}
 
 @media screen and (max-width: 800px) {
 
+    h3{
+        font-size: 4vw;
+        margin: 0 auto;
+    }
 
     .colonnes{
         display: block;
@@ -58,7 +59,8 @@ h3{
         width: 90%;
         margin: 5vw;
     }
-    .img{
+
+    .imgContainer{
         width: 100%;
         display: flex;
         justify-content: left;
@@ -66,19 +68,10 @@ h3{
     
     }
 
-    .img2{
+    .imgProjet{
 
         width: 70%;
         margin: 0 auto;
         border-width: 3px;
     }
-
-    h1{
-        font-size: 4vw;
-        width: 70%;
-        margin: 0 auto;
-    }
-    
-
-
 }
