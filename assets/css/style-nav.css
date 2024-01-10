@@ -74,7 +74,7 @@ nav>div {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     nav {
         display: block;
@@ -86,25 +86,22 @@ nav>div {
         list-style: none;
         display: none;
         justify-content: center;
-        margin-top: 3vh;
-        align-items: center;
         margin: 0 auto;
+        margin-top: -0.1vh;
+        align-items: center;
         background-color: rgb(255, 255, 255);
     }
 
-
-
     li {
-        margin-top: 4vh;
+        padding: 2vh;
     }
-
 
     .span_1,
     .span_2,
     .span_3 {
         display: flex;
-        width: 30px;
-        height: 3px;
+        width: 3.5vh;
+        height: 0.3vh;
         margin: 5px 0 5px 0;
         background-color: black;
         right: 2vw;
@@ -124,22 +121,20 @@ nav>div {
     .span_3 {
         margin: -1px 0;
     }
-    .remove{
 
+    .remove{
         display: none;
         transition: 0.5s all;
     }
     .show{
-
         display: flex;
         position: relative;
         transition: 0.5s all;
-
     }
+
     #a_Nav3{
         border-bottom: 3px solid black;
     }
-
 }
 
 .logo_link {
