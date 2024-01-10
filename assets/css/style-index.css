@@ -15,7 +15,7 @@
     font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
-.Div_text {
+.div_text {
     display: block;
 }
 
@@ -73,6 +73,11 @@
     box-shadow: none ;
 }
 
+.videoContainer{
+    display: flex;
+    justify-content: center;
+}
+
 .video{
     aspect-ratio: 16/9;
     width: 60%;
@@ -80,12 +85,7 @@
     margin-bottom: 3vw;
 }
 
-.videoContainer{
-    display: flex;
-    justify-content: center;
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     .hero-container {
         display: block;
