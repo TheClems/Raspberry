@@ -60,7 +60,6 @@ h2 {
     line-height: 5vh;
 }
 
-
 .span_1,
 .span_2,
 .span_3 {
@@ -71,7 +70,6 @@ nav>div {
     display: flex;
     align-items: center;
 }
-
 
 
 @media screen and (max-width: 768px) {
@@ -109,7 +107,6 @@ nav>div {
         position: absolute;
     }
 
-
     .span_2 {
         margin: 9px 0px;
     }
@@ -135,9 +132,4 @@ nav>div {
     #a_Nav3{
         border-bottom: 3px solid black;
     }
-}
-
-.logo_link {
-    text-decoration: none;
-    color: #000;
 }
