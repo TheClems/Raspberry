@@ -52,7 +52,6 @@ h3{
         font-family: Poppins, Arial, Helvetica, sans-serif;
         margin: auto;
         width: 100%;
-    
     }
 
     .card{
@@ -65,11 +64,9 @@ h3{
         display: flex;
         justify-content: left;
         align-items: center;
-    
     }
 
     .imgProjet{
-
         width: 70%;
         margin: 0 auto;
         border-width: 3px;
