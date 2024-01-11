@@ -48,3 +48,24 @@ p {
     border-radius: 3vw;
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+        display: block;
+        width: 90vw;
+        height: 120vw;
+        margin-top: 10vw;
+    }
+
+    .card_img {
+        height: 70vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+}
